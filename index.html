@@ -5,13 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ZIYA MALIK | Learning Hub</title>
+<title>ZIYA MALIK | Daily Update</title>
+<meta name="description" content="ZIYA MALIK - Daily Updates and Telegram Community.">
+<meta name="theme-color" content="#080817">
 
-<meta name="description" content="Welcome to ZIYA MALIK Learning Hub. Explore learning resources, educational updates and join our Telegram community.">
-
-<meta name="theme-color" content="#080b1c">
-
-<!-- Meta Pixel Code -->
+<!-- META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -27,242 +25,168 @@ s.parentNode.insertBefore(t,s)
 fbq('init', '28961039923554835');
 fbq('track', 'PageView');
 </script>
+
 <noscript>
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=28961039923554835&ev=PageView&noscript=1"/>
 </noscript>
-<!-- End Meta Pixel Code -->
+<!-- END PIXEL -->
 
 <style>
-* {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-body {
-  min-height:100vh;
-  font-family:Arial, sans-serif;
-  color:#fff;
-  background:
-  radial-gradient(circle at 10% 10%, #29205d 0, transparent 35%),
-  radial-gradient(circle at 90% 85%, #073c55 0, transparent 35%),
-  #080b1c;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:25px 15px;
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+font-family:Arial,sans-serif;
+color:white;
+background:
+radial-gradient(circle at top left,#352078,transparent 45%),
+radial-gradient(circle at bottom right,#07536b,transparent 45%),
+#080817;
 }
 
-.container {
-  width:100%;
-  max-width:440px;
-  text-align:center;
+.container{
+width:100%;
+max-width:420px;
+text-align:center;
+padding:35px 23px;
+border:1px solid #ffffff20;
+border-radius:25px;
+background:rgba(255,255,255,0.06);
+box-shadow:0 15px 60px #0008;
 }
 
-.top-label {
-  display:inline-block;
-  padding:9px 17px;
-  border:1px solid #6255ff;
-  border-radius:30px;
-  color:#b9b3ff;
-  font-size:11px;
-  letter-spacing:2px;
-  margin-bottom:30px;
+.profile{
+width:125px;
+height:125px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid #a78bfa;
+padding:3px;
+background:#fff;
+box-shadow:0 0 30px #8b5cf688;
+margin-bottom:22px;
 }
 
-.profile {
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  border:3px solid #8a7bff;
-  margin:0 auto 20px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  background:linear-gradient(135deg,#4034a6,#00b8c8);
-  font-size:32px;
-  font-weight:900;
-  box-shadow:0 0 30px #5549ff66;
+h1{
+font-size:32px;
+font-weight:900;
+letter-spacing:2px;
+background:linear-gradient(90deg,#fff,#c4b5fd,#67e8f9);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:13px;
 }
 
-h1 {
-  font-size:34px;
-  font-weight:900;
-  letter-spacing:2px;
-  background:linear-gradient(90deg,#fff,#a99bff,#50e8ff);
-  -webkit-background-clip:text;
-  color:transparent;
-  margin-bottom:12px;
+.welcome{
+font-size:14px;
+color:#c4b5fd;
+letter-spacing:2px;
+margin-bottom:22px;
+font-weight:bold;
 }
 
-.subtitle {
-  font-size:14px;
-  color:#b9bfd4;
-  line-height:1.8;
-  margin-bottom:28px;
+.daily{
+font-size:24px;
+font-weight:900;
+letter-spacing:3px;
+margin:15px 0 28px;
+color:#67e8f9;
+text-shadow:0 0 18px #06b6d4;
 }
 
-.section-title {
-  color:#fff;
-  font-size:18px;
-  margin-bottom:18px;
+.telegram-btn{
+display:block;
+width:100%;
+padding:18px 12px;
+border-radius:14px;
+text-decoration:none;
+font-size:15px;
+font-weight:900;
+letter-spacing:1px;
+color:white;
+background:linear-gradient(100deg,#5145e5,#168de9);
+box-shadow:0 8px 25px #5145e566;
+transition:.2s;
 }
 
-.learning-list {
-  text-align:left;
-  margin-bottom:28px;
+.telegram-btn:hover{
+transform:translateY(-3px);
 }
 
-.learning-item {
-  display:flex;
-  align-items:center;
-  gap:13px;
-  padding:15px;
-  margin-bottom:11px;
-  border:1px solid #ffffff16;
-  border-radius:13px;
-  background:#ffffff08;
+.note{
+margin-top:18px;
+font-size:12px;
+color:#a5aec8;
+line-height:1.7;
 }
 
-.number {
-  width:34px;
-  height:34px;
-  min-width:34px;
-  border-radius:10px;
-  background:#5143c9;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bold;
-}
-
-.item-text strong {
-  font-size:14px;
-  display:block;
-  margin-bottom:5px;
-}
-
-.item-text span {
-  color:#a9b0c8;
-  font-size:12px;
-}
-
-.telegram-btn {
-  display:block;
-  width:100%;
-  padding:18px 15px;
-  border-radius:14px;
-  text-decoration:none;
-  color:#fff;
-  font-size:16px;
-  font-weight:800;
-  letter-spacing:1px;
-  background:linear-gradient(100deg,#5144e8,#168de9);
-  box-shadow:0 8px 28px #3737d955;
-  transition:transform .2s;
-}
-
-.telegram-btn:hover {
-  transform:translateY(-2px);
-}
-
-.note {
-  color:#9ca6bd;
-  font-size:11px;
-  line-height:1.7;
-  margin-top:15px;
-}
-
-.footer {
-  color:#78839e;
-  font-size:11px;
-  margin-top:35px;
-  line-height:2;
-}
-
-.footer a {
-  color:#a9b6e0;
-  text-decoration:none;
+.footer{
+margin-top:35px;
+font-size:11px;
+color:#858da7;
+letter-spacing:1px;
 }
 </style>
 </head>
 
 <body>
 
-<main class="container">
+<div class="container">
 
-  <div class="top-label">WELCOME TO LEARNING HUB</div>
+<img
+class="profile"
+src="https://i.ibb.co/MqRCXH2/1793679781038.png"
+alt="ZIYA MALIK Profile Picture"
+>
 
-  <div class="profile">ZM</div>
+<h1>ZIYA MALIK</h1>
 
-  <h1>ZIYA MALIK</h1>
+<div class="welcome">
+WELCOME TO ZIYA MALIK HUB
+</div>
 
-  <p class="subtitle">
-    Learn • Explore • Grow<br>
-    Welcome to our educational learning community.
-  </p>
+<div class="daily">
+DAILY UPDATE
+</div>
 
-  <h2 class="section-title">What You Can Explore</h2>
+<a
+href="https://t.me/+uL2bs041VKFmNDU1"
+class="telegram-btn"
+id="telegramJoin"
+target="_blank"
+rel="noopener noreferrer">
+JOIN TELEGRAM →
+</a>
 
-  <div class="learning-list">
+<p class="note">
+Click above only if you wish to visit our Telegram channel.
+</p>
 
-    <div class="learning-item">
-      <div class="number">01</div>
-      <div class="item-text">
-        <strong>Learning Updates</strong>
-        <span>Explore useful educational updates.</span>
-      </div>
-    </div>
+<div class="footer">
+© 2026 ZIYA MALIK
+</div>
 
-    <div class="learning-item">
-      <div class="number">02</div>
-      <div class="item-text">
-        <strong>Community Discussions</strong>
-        <span>Connect and learn with others.</span>
-      </div>
-    </div>
-
-    <div class="learning-item">
-      <div class="number">03</div>
-      <div class="item-text">
-        <strong>Learning Resources</strong>
-        <span>Find shared resources and information.</span>
-      </div>
-    </div>
-
-  </div>
-
-  <a
-    href="https://t.me/+uL2bs041VKFmNDU1"
-    class="telegram-btn"
-    id="telegramJoin"
-    target="_blank"
-    rel="noopener noreferrer">
-    JOIN TELEGRAM COMMUNITY →
-  </a>
-
-  <p class="note">
-    Joining is optional. Tap the button only if you want
-    to visit our Telegram community.
-  </p>
-
-  <div class="footer">
-    © 2026 ZIYA MALIK<br>
-    Educational Learning Hub
-  </div>
-
-</main>
+</div>
 
 <script>
-// Track only an actual user click on the Telegram button.
+// Subscribe event only on actual button click
 document.getElementById('telegramJoin')
-.addEventListener('click', function() {
-  if (typeof fbq === 'function') {
-    fbq('track', 'Subscribe');
-  }
+.addEventListener('click',function(){
+if(typeof fbq==='function'){
+fbq('track','Subscribe');
+}
 });
 </script>
 
 </body>
 </html>
+
